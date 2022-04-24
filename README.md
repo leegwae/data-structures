@@ -1,4 +1,4 @@
-# data-structure
+# data-structures
 
 내가 공부한 자료구조
 
