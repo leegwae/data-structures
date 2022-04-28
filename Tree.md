@@ -98,6 +98,14 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 
 
+### 균형 트리와 비균형 트리
+
+- **균형 트리**: `O(logN)` 시간에 삽입과 탐색을 할 수 있을 정도로 균형이 잘 잡힌 트리
+  - 예) 레드-블랙 트리, AVL 트리
+- 비균형 트리: 균형 트리가 아닌 트리
+
+
+
 ### 이진 힙
 
 - 최소 힙
@@ -119,12 +127,50 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 ## 트리의 표현 방법
 
-[그래프의 표현 방법](https://github.com/leegwae/data-structures/blob/main/Graph.md#%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95) 참고
-
 트리는 `인접 배열`과 `인접 리스트`를 사용하여 나타낼 수 있다.
+
+
+
+### 인접 배열
+
+- 일차원 배열을 사용하면 `인덱스`는 `노드`를, `요소`는 `노드의 부모`를 나타낸다.
+
+```python
+tree[node] = parent
+```
+
+- 이차원 배열을 사용하면 이진 트리를 구현할 수 있다.
+  - `인덱스`는 `자식의 방향`을, `요소`는 `자식`을 나타낸다.
+
+```python
+tree[node][0] = left
+tree[node][1] = right
+```
+
+
+
+## 인접 리스트
+
+- 파이썬의 딕셔너리를 사용하면 `키`는 `노드`를, `값`은 `자식의 리스트`를 나타낼 수 있다.
+
+```python
+tree = {}
+tree[node] = [left, right]
+```
+
+- `collections.defaultdict`를 사용할 수도 있다.
+
+```python
+import collections
+
+tree = collections.defaultdict(list)
+tree[node].append(left)
+tree[node].append(right)
+```
 
 
 
 ## 트리 순회
 
  
+
