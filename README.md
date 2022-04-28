@@ -7,6 +7,7 @@
 - [빅오 표기법과 복잡도](https://github.com/leegwae/data-structure/blob/main/big-O%20and%20Complexity.md)
 - [재귀](https://github.com/leegwae/data-structure/blob/main/README.md)는 [여기](https://github.com/leegwae/data-structure/blob/main/Recursion.md)로
 - [그래프](https://github.com/leegwae/data-structures/blob/main/Graph.md)
+- [트리](https://github.com/leegwae/data-structures/blob/main/Tree.md)
 
 
 
@@ -16,6 +17,17 @@
   - [ ] 상한과 최악의 차이: 예시 보충하기
   - [ ] 분할 상환 분석
   - [ ] 병렬화
+- [ ] [Tree](./Tree.md)
+  - [ ] 일반적인 트리의 구현
+    - [ ] 삽입
+    - [ ] 삭제
+
+  - [ ] 이진 트리: 따로 md 작성
+  - [ ] 이진 힙: 따로 md 작성
+  - [ ] 트라이
+  - [ ] AVL 트리
+  - [ ] 트리 순회
+
 
 
 
