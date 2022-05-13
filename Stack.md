@@ -20,13 +20,13 @@
 [Stack.py](https://github.com/leegwae/problem-solving/blob/main/stack/Stack.py)
 
 ```python
-from typing import List, Optional, TypeVar
+from typing import Optional, TypeVar
 
 T = TypeVar('T')
 
 
 class ListNode:
-	def __init__(self, val: Optional[T] = None, next: Optional['ListNode'] = None):
+	def __init__(self, val: T, next: Optional['ListNode'] = None):
 		self.val = val
 		self.next = next
 
@@ -35,13 +35,13 @@ class Stack:
 	def __init__(self):
 		self.top = None
 
-	def is_empty(self):
+	def is_empty(self) -> bool:
 		return self.top is None
 
 	def push(self, item: T):
 		self.top = ListNode(item, self.top)
 
-	def pop(self):
+	def pop(self) -> Optional[T]:
 		if self.is_empty():
 			return None
 
@@ -50,8 +50,9 @@ class Stack:
 
 		return val
 
-	def peek(self):
-		return self.top
+	def peek(self) -> Optional[T]:
+		return None if self.is_empty() else self.top.val
+
 ```
 
 
@@ -84,3 +85,4 @@ class Stack:
 | `pop()`        | `O(1)`      | 가장 마지막에 있는 요소를 삭제하고 반환한다. |
 | `pop(i)`       | `O(N)`      | `i`번째 항목을 삭제하고 반환한다.            |
 | `stack[-1]`    | `O(1)`      | 가장 마지막에 있는 요소를 반환한다.          |
+
