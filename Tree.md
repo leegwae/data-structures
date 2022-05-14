@@ -108,8 +108,7 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 ### 이진 힙
 
-- 최소 힙
-- 최대 힙
+[자료구조 Heap 정리](https://github.com/leegwae/data-structures/blob/main/Heap.md) 참고
 
 
 

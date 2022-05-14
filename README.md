@@ -10,6 +10,7 @@
 - [큐](https://github.com/leegwae/data-structures/blob/main/Queue.md)
 - [그래프](https://github.com/leegwae/data-structures/blob/main/Graph.md)
 - [트리](https://github.com/leegwae/data-structures/blob/main/Tree.md)
+- [힙](https://github.com/leegwae/data-structures/blob/main/Heap.md)
 
 
 
@@ -25,10 +26,11 @@
     - [ ] 삽입
     - [ ] 삭제
     - [ ] 탐색
-  - [ ] 이진 힙: 따로 md 작성
+  - [x] 이진 힙: 따로 md 작성
   - [ ] 트라이
   - [ ] 균형트리: 레드-블랙 트리, AVL 트리
   - [x] 트리 순회
+- [ ] 각 자료구조의 적용 사례
 
 
 
@@ -39,4 +41,6 @@
 
 [라이-대회알고리즘](https://blog.naver.com/kks227/220769859177)
 
-C언어로 쉽게 풀어쓴 자료구조
+천인국외 2명-C언어로 쉽게 풀어쓴 자료구조
+
+박상길-파이썬 알고리즘 인터뷰
