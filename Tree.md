@@ -108,6 +108,8 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 ### 이진 힙
 
+- **이진 힙(binary heap)**은 배열로 표현한 완전 이진 트리로, 우선순위 큐를 구현하여`O(logn)`의 시간 복잡도로 최대값 또는 최소값에 접근할 수 있도록 고안된 자료구조이다.
+
 [자료구조 Heap 정리](https://github.com/leegwae/data-structures/blob/main/Heap.md) 참고
 
 
