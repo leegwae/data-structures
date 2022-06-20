@@ -11,6 +11,7 @@
 - [그래프](https://github.com/leegwae/data-structures/blob/main/Graph.md)
 - [트리](https://github.com/leegwae/data-structures/blob/main/Tree.md)
 - [힙](https://github.com/leegwae/data-structures/blob/main/Heap.md)
+- [세그먼트 트리](https://github.com/leegwae/data-structures/blob/main/Segment%20Tree.md)
 
 
 
