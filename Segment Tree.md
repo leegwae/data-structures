@@ -58,7 +58,7 @@ tree[i] = 오른쪽 끝 위치가 arr[i]인 구간의 합
 
 
 
-<img src="C:\Users\jy\Desktop\규칙.jpg" alt="규칙" width="70%;" />
+<img src="https://user-images.githubusercontent.com/57662010/174590783-1ec9950c-044f-4b2a-ba87-d4fafaba93d9.jpg" alt="인덱스의 패턴" width="70%" />
 
 가령 `[0, 5]` 구간의 합을 구하고자 한다.
 
