@@ -73,6 +73,8 @@ tree[i] = 오른쪽 끝 위치가 arr[i]인 구간의 합
 
 
 
+
+
 #### 펜윅 트리 배열의 내용 변경하기
 
 `arr[i]`를 변경한다고 하자. 그렇다면 `arr[i]`를 포함하는 모든 구간의 합 역시 변경해주어야한다. 다음과 같이 할 수 있다.
@@ -93,3 +95,13 @@ tree[i] = 오른쪽 끝 위치가 arr[i]인 구간의 합
 
 
 켜져있는 최하위 비트는 `S & -S`로 추출할 수 있다. [비트 마스킹 - 가장 작은 원소 찾기](https://github.com/leegwae/algorithms/blob/main/Bit%20Masking.md#%EA%B0%80%EC%9E%A5-%EC%9E%91%EC%9D%80-%EC%9B%90%EC%86%8C-%EC%B0%BE%EA%B8%B0) 참고
+
+
+
+### 펜윅 트리의 구현
+
+- `arr[0] = 0`으로 할당하고 인덱스 `1`부터 수를 넣으면 펜윅 트리 연산을 할 때 인덱스를 `1` 더해줄 필요가 없다.
+
+
+
+[예: 구간_합\_구하기.py](https://github.com/leegwae/problem-solving/blob/main/segment_tree/%EA%B5%AC%EA%B0%84_%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B0.py)
