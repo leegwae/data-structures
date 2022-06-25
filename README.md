@@ -12,6 +12,7 @@
 - [트리](https://github.com/leegwae/data-structures/blob/main/Tree.md)
 - [힙](https://github.com/leegwae/data-structures/blob/main/Heap.md)
 - [세그먼트 트리](https://github.com/leegwae/data-structures/blob/main/Segment%20Tree.md)
+- [트라이](https://github.com/leegwae/data-structures/blob/main/Trie.md)
 
 
 
@@ -28,7 +29,7 @@
     - [ ] 삭제
     - [ ] 탐색
   - [x] 이진 힙: 따로 md 작성
-  - [ ] 트라이
+  - [x] 트라이
   - [ ] 균형트리: 레드-블랙 트리, AVL 트리
   - [x] 트리 순회
 - [ ] 각 자료구조의 적용 사례
