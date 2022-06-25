@@ -118,13 +118,7 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 - **트라이(trie)**는 문자열 탐색에 사용하는 트리 기반의 자료구조로, 노드는 자신의 키값과 자식 노드의 배열을 프로퍼티로 가진다.
 
-[자료구조 Trie 정리]([트라이](https://github.com/leegwae/data-structures/blob/main/Trie.md)) 참고
-
-
-
-### AVL 트리
-
-- AVL 트리
+[자료구조 Trie 정리](https://github.com/leegwae/data-structures/blob/main/Trie.md) 참고
 
 
 
