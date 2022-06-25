@@ -5,7 +5,7 @@
 (2022/04/19~)
 
 - [빅오 표기법과 복잡도](https://github.com/leegwae/data-structure/blob/main/big-O%20and%20Complexity.md)
-- [재귀](https://github.com/leegwae/data-structure/blob/main/README.md)는 [여기](https://github.com/leegwae/data-structure/blob/main/Recursion.md)로
+- [재귀](https://github.com/leegwae/data-structure)는 [여기](https://github.com/leegwae/data-structure/blob/main/Recursion.md)로
 - [스택](https://github.com/leegwae/data-structures/blob/main/Stack.md)
 - [큐](https://github.com/leegwae/data-structures/blob/main/Queue.md)
 - [그래프](https://github.com/leegwae/data-structures/blob/main/Graph.md)
@@ -30,9 +30,13 @@
     - [ ] 탐색
   - [x] 이진 힙: 따로 md 작성
   - [x] 트라이
-  - [ ] 균형트리: 레드-블랙 트리, AVL 트리
   - [x] 트리 순회
+  - [ ] 이진 탐색(BST) 트리 문서 따로 분리하기
+    - [ ] AVL 트리
+    - [ ] 레드 블랙 트리
 - [ ] 각 자료구조의 적용 사례
+- [ ] 해시 테이블
+- [ ] 연결 리스트
 
 
 
