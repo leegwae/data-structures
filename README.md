@@ -2,7 +2,9 @@
 
 내가 공부한 자료구조
 
-(2022/04/19~)
+(2022/04/19~2022/06/25)
+
+(2023/02/01~)
 
 - [빅오 표기법과 복잡도](https://github.com/leegwae/data-structure/blob/main/big-O%20and%20Complexity.md)
 - [재귀](https://github.com/leegwae/data-structure)는 [여기](https://github.com/leegwae/data-structure/blob/main/Recursion.md)로
@@ -13,6 +15,7 @@
 - [힙](https://github.com/leegwae/data-structures/blob/main/Heap.md)
 - [세그먼트 트리](https://github.com/leegwae/data-structures/blob/main/Segment%20Tree.md)
 - [트라이](https://github.com/leegwae/data-structures/blob/main/Trie.md)
+- [Union-Find](https://github.com/leegwae/data-structures/blob/main/Union-Find.md)
 
 
 
@@ -37,6 +40,7 @@
 - [ ] 각 자료구조의 적용 사례
 - [ ] 해시 테이블
 - [ ] 연결 리스트
+- [ ] 메모리 계산
 
 
 
