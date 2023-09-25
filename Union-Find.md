@@ -35,6 +35,10 @@ belongsTo[i]=원소 i가 속하는 집합의 번호
 
 ### 트리 사용하기
 
+```
+parent[i]=원소 i의 부모
+```
+
 하나의 트리가 하나의 집합으로 표현된다. 자식 노드는 부모 노드에 대한 포인터를 가진다.
 
 1. 찾기: 트리의 루트로 트리를 구분할 수 있으므로, 주어진 원소가 속한 트리의 루트를 구한다.
@@ -83,11 +87,25 @@ union(n-1, n) # n-1 -> n
 
 
 
+#### path compression
+
+union-find에서 경로 압축(path compression)은 정점 u에 대하여 find(u) 연산으로 루트 v를 찾은 후 경로 상의 모든 정점이 v를 가리키도록 변경하는 것이다.
+
+```python
+# 2. 최적화된 찾기
+def find(u):
+	if parent[u] == u:
+		return u
+	
+	parent[u] = find(parent[u])
+	return parent[u]
+```
+
+
+
 #### union-by-rank 최적화
 
 union-by-rank 최적화는 높이가 더 낮은 트리를 더 높은 트리의 자손으로 넣는 방법이다.
-
-
 
 ```python
 # 트리의 레벨을 저장한다.
@@ -104,6 +122,28 @@ def union(u, v):
 		u, v = v, u
 	parent[u] = v
 	if rank[u] == rank[v]:
-		parent[v] += 1
+		rank[v] += 1
 ```
 
+
+
+#### 전체 코드
+
+[union-find.py](https://github.com/leegwae/problem-solving/blob/main/union-find/union_find.py)
+
+
+
+## union-find로 풀 수 있는 문제들
+
+### 최소 스패닝 트리
+
+크루스칼 최소 스패닝 트리 알고리즘에서 트리에 사이클이 있는지 확인할 때 union-find를 사용할 수 있다. 두 정점이 이미 같은 집합에 속해있다면, 사이클이 있는 것이다.
+
+[Minimun Spanning Tree](https://github.com/leegwae/algorithms/blob/main/Minimum%20Spanning%20Tree.md) 참고
+
+
+
+## 참고
+
+- https://blog.naver.com/kks227/220799105543
+- 구종만-알고리즘 문제 해결 전략 25장 상호 배타적 집합
