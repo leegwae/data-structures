@@ -6,7 +6,7 @@
 
 - [빅오 표기법과 복잡도](https://github.com/leegwae/data-structures/blob/main/big-O-and-complexity.md)
 - [재귀](https://github.com/leegwae/data-structure)는 [여기](https://github.com/leegwae/data-structure/blob/main/recursion.md)로
-- [해시](https://github.com/leegwae/data-structures/blob/main/jash.md)
+- [해시](https://github.com/leegwae/data-structures/blob/main/hash.md)
 - [배열과 연결 리스트](https://github.com/leegwae/data-structures/blob/main/array-and-linked-list.md)
 - [스택](https://github.com/leegwae/data-structures/blob/main/stack.md)
 - [큐](https://github.com/leegwae/data-structures/blob/main/queue.md)
