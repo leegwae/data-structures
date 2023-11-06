@@ -69,7 +69,7 @@ tree[i] = 오른쪽 끝 위치가 arr[i]인 구간의 합
 
 
 
-켜져있는 최하위 비트는 `S & (S - 1)`로 끌 수 있다. [비트 마스킹 - 가장 작은 원소 삭제하기](https://github.com/leegwae/algorithms/blob/main/Bit%20Masking.md#%EA%B0%80%EC%9E%A5-%EC%9E%91%EC%9D%80-%EC%9B%90%EC%86%8C-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0) 참고
+켜져있는 최하위 비트는 `S & (S - 1)`로 끌 수 있다. [비트 마스킹 - 가장 작은 원소 삭제하기](https://github.com/leegwae/algorithms/blob/main/bit-masking.md#%EA%B0%80%EC%9E%A5-%EC%9E%91%EC%9D%80-%EC%9B%90%EC%86%8C-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0) 참고
 
 
 
@@ -94,7 +94,7 @@ tree[i] = 오른쪽 끝 위치가 arr[i]인 구간의 합
 
 
 
-켜져있는 최하위 비트는 `S & -S`로 추출할 수 있다. [비트 마스킹 - 가장 작은 원소 찾기](https://github.com/leegwae/algorithms/blob/main/Bit%20Masking.md#%EA%B0%80%EC%9E%A5-%EC%9E%91%EC%9D%80-%EC%9B%90%EC%86%8C-%EC%B0%BE%EA%B8%B0) 참고
+켜져있는 최하위 비트는 `S & -S`로 추출할 수 있다. [비트 마스킹 - 가장 작은 원소 찾기](https://github.com/leegwae/algorithms/blob/main/bit-masking.md#%EA%B0%80%EC%9E%A5-%EC%9E%91%EC%9D%80-%EC%9B%90%EC%86%8C-%EC%B0%BE%EA%B8%B0) 참고
 
 
 

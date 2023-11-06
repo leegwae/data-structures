@@ -139,7 +139,7 @@ def union(u, v):
 
 크루스칼 최소 스패닝 트리 알고리즘에서 트리에 사이클이 있는지 확인할 때 union-find를 사용할 수 있다. 두 정점이 이미 같은 집합에 속해있다면, 사이클이 있는 것이다.
 
-[Minimun Spanning Tree](https://github.com/leegwae/algorithms/blob/main/Minimum%20Spanning%20Tree.md) 참고
+[알고리즘 최소 스패닝 트리 정리](https://github.com/leegwae/algorithms/blob/main/minimum-spanning-tree.md) 참고
 
 
 

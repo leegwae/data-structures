@@ -57,7 +57,7 @@
   - 사이클을 가지지 않는 연결 그래프 혹은 사이클을 가지지 않는 방향 그래프
   - `n`개의 정점, `n - 1`개의 간선
 
-[자료구조 Tree 정리](https://github.com/leegwae/data-structures/blob/main/Tree.md) 참고
+[자료구조 Tree 정리](https://github.com/leegwae/data-structures/blob/main/tree.md) 참고
 
 
 

@@ -1,7 +1,7 @@
 # Tree
 
 - **트리(tree)**: 연결된 객체 간의 계층 관계를 나타내는 자료구조
-- 트리는 사이클이 없는 [그래프](https://github.com/leegwae/data-structures/blob/main/Graph.md)의 일종이다.
+- 트리는 사이클이 없는 [그래프](https://github.com/leegwae/data-structures/blob/main/graph.md)의 일종이다.
   - 사이클이 없는 연결 그래프
   - 혹은 사이클이 없는 방향 그래프(DAG; Directed Acylic Graph)에 속한다.
 
@@ -120,7 +120,7 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 - **이진 힙(binary heap)**은 배열로 표현한 완전 이진 트리로, 우선순위 큐를 구현하여`O(logn)`의 시간 복잡도로 최대값 또는 최소값에 접근할 수 있도록 고안된 자료구조이다.
 
-[자료구조 Heap 정리](https://github.com/leegwae/data-structures/blob/main/Heap.md) 참고
+[자료구조 Heap 정리](https://github.com/leegwae/data-structures/blob/main/heap.md) 참고
 
 
 
@@ -128,7 +128,7 @@ v의 왼쪽 자손 < v < v의 오른쪽 자손
 
 - **트라이(trie)**는 문자열 탐색에 사용하는 트리 기반의 자료구조로, 노드는 자신의 키값과 자식 노드의 배열을 프로퍼티로 가진다.
 
-[자료구조 Trie 정리](https://github.com/leegwae/data-structures/blob/main/Trie.md) 참고
+[자료구조 Trie 정리](https://github.com/leegwae/data-structures/blob/main/trie.md) 참고
 
 
 
